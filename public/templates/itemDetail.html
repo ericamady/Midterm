@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/style.css">
+    <title>{{NAME}}</title>
+
+    <style>
+        main {
+        width: 90%;
+        max-width: 700px;
+        margin: 30px auto;
+      }
+
+      .item-details {
+        background-color: white;
+        padding: 25px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body class="itemColor">
+    <header>
+      <h1>{{NAME}}</h1>
+    </header>
+
+    <main>
+      <div class="item-details">
+
+        <p>
+          <strong>ID:</strong>
+          {{ID}}
+        </p>
+        <p><strong>Name:</strong> {{NAME}}</p>
+        <p>
+          <strong>Category:</strong>
+          {{CATEGORY}}
+        </p>
+
+        
+        <a class="back-link" href="/"> Back to homepage </a>
+      </div>
+    </main>
+  </body>
+</html>
